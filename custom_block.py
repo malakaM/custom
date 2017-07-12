@@ -8,5 +8,5 @@ class Custom(Block):
 
     def process_signals(self, signals):
         for signal in signals:
-            pass
+            print 'Hello, world!'
         self.notify_signals(signals)
